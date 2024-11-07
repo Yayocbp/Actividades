@@ -19,7 +19,7 @@ def cargar_dataset(ruta_dataset: str) -> pd.DataFrame:
 #Convertir la columna 'Activo' a booleano
     if df['Activo'].dtype != 'bool':
           df['Activo']= df['Activo'].astype(bool)
-    #print(df)
+    #print(df), pruba de casmbio
   
 
 #Limpiar y convertir la columna 2016 a flotante
